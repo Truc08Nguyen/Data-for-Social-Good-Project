@@ -17,9 +17,9 @@ Use your knowledge of object-oriented programming, one-dimensional (1D) arrays, 
 
 Include your User Story you analyzed for your project here. Your User Story should have the following format: 
 
-> As an [role], <br> 
-> I want to [goal], <br> 
-> so that I can [benefit]. 
+> As a [traveler], <br> 
+> I want to [know the time and price of local flights], <br> 
+> so that I can [know the cheapest and most expensive flights]. 
 
 ## Dataset 
 
@@ -27,17 +27,18 @@ Include a hyperlink to the source of your dataset used for this project. Additio
 
 Example: 
 
-Dataset: https://www.kaggle.com/datasets/sansuthi/global-co2-emissions 
-- **Country** (String) - name of the country 
-- **Population** (int) - number of people in the country 
-- **CO2Emissions** (double) - carbon dioxide emission in kilotons 
+Dataset: https://www.kaggle.com/datasets/dilwong/flightprices/data
+- **Departure** (String) - the departure airport
+- **Arrival** (String) - the arrival airport
+- **Time** (int) - time of the flight 
+- **Price** (double) - price of the flight
 
 ## UML Diagram 
 
 Put and image of your UML Diagram here. Upload the image of your UML Diagram to your repository, then use the Markdown syntax to insert your image here. Make sure your image file name is one work, otherwise it might not properly get display on this README. 
 
-![UML Diagram for my project](<Screenshot 2024-11-06 214640.png>) 
+![UML Diagram for my project](<Screenshot 2024-11-06 220229.png>) 
 
 ## Description 
 
-Write a description of your project here. In your description, include as many vocab words from our class to explain your User Story, the chosen dataset and how your project addressed that users goals. If your project used the Scanner class for user input, explain how the user will interact with your project.
+Travelers are interested in finding detailed information about local flights, including the departure times and ticket prices. With these information will allow the user to compare and decide which flights are the most affordable for them. By understanding the prices, the user can make decisions about when to travel and which flights best fit their budget. The Dataset we chose for this project was the Flight Prices dataset. This dataset provides essential information about the flight schedules and pricing. The dataset includes the departure and arrival airports column. It also provides information about the time intervals for each flight, helping the user understand the scheduling of flights. Lastly, the dataset contains a column with the prices for each flight, which the user can identify pricing across different routes and times. These information will help the user plan their trips and manage their travel expenses effectively.
